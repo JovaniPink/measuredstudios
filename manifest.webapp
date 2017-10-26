@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "name": "Measured_Studios",
-  "short_name": "Measured_Studios",
-  "description": "Tailored Customer Experiences",
+  "name": "Measured Studios",
+  "short_name": "Measured Studios",
+  "description": "Tailored Data Services",
   "icons": [
       {
           "src": "/static/img/icons/android-chrome-192x192.png",
@@ -27,8 +27,8 @@
   },
   "locales": {
     "en": {
-      "name": "Measured_Studios",
-      "description": "Tailored Customer Experiences"
+      "name": "Measured Studios",
+      "description": "Tailored Data Services"
     }
   },
   "start_url": "/index.html",

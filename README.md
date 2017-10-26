@@ -3,10 +3,10 @@
 
 # Measured Studios
 
-> Tailored Customer Experiences
+> Tailored Data Services
 
 ## Features
-* HTML 5, CSS3, Bootstrap 3
+* HTML 5, CSS 3, Bootstrap 3. jQuery
 
 ## Folder Structure
 

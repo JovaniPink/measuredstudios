@@ -36,11 +36,11 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 > or if you like it simple:
 
-1. `Fork` this repository
-2. Create a `branch`
-3. `Commit` your changes
-4. `Push` your `commits` to the `branch`
-5. Submit a `pull request`
+1.  `Fork` this repository
+2.  Create a `branch`
+3.  `Commit` your changes
+4.  `Push` your `commits` to the `branch`
+5.  Submit a `pull request`
 
 > You can find more information about Pull Requests [here](https://help.github.com/categories/collaborating-on-projects-using-pull-requests/)
 
@@ -61,9 +61,9 @@ Check also the [list of contributors](CONTRIBUTORS.md) who helped on this projec
 
 > **[?]** If your project is still in an early release, a to-do list is a good thing to keep track:
 
-- [x] Include something
-- [ ] Another something
-- [ ] So on...
+* [x] Include something
+* [ ] Another something
+* [ ] So on...
 
 ## License
 

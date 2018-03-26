@@ -38,4 +38,4 @@ In order to sanitize coding standards, please follow [this style guide](https://
 
 > This section should explicitly state that we will not discriminate against people on any grounds other than their code contributions, and make clear that behaviour that would be harmful to other people that may wish to contribute is not acceptable. This gives clear authority to remove people who are causing problems, and also sets a clear tone of inclusion.
 
-> **ProTip:** You can find more about  [Contributor Covenant](http://contributor-covenant.org) or as a seperate `code_of_conduct` file. [Good sample](http://contributor-covenant.org/version/1/4/).
+> **ProTip:** You can find more about [Contributor Covenant](http://contributor-covenant.org) or as a seperate `code_of_conduct` file. [Good sample](http://contributor-covenant.org/version/1/4/).

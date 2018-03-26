@@ -12,8 +12,8 @@ We have some functionalities in mind and we have issued them and there is a mile
 
 > Ensure that contributors will follow a minimal quality check
 
-- [ ] To-Do.
-- [ ] Another To-Do.
+* [ ] To-Do.
+* [ ] Another To-Do.
 
 ## The problem
 
@@ -23,9 +23,9 @@ We have some functionalities in mind and we have issued them and there is a mile
 
 > Describe here the requirements to help the contributor describe how can you emulate the issue he is facing.
 
-- [ ] Step 1
-- [ ] Step 2
-- [ ] So on...
+* [ ] Step 1
+* [ ] Step 2
+* [ ] So on...
 
 ### Expected Results
 

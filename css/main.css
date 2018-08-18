@@ -181,7 +181,7 @@ header {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-header .brand {
+.brand {
   font-family: "Anton", sans-serif;
 }
 
@@ -309,6 +309,7 @@ section.services .feature-item i {
   font-size: 80px;
   background: -webkit-linear-gradient(to left, #32c2cc, #289299);
   background: linear-gradient(to left, #32c2cc, #289299);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -408,6 +409,7 @@ section.portfolio .feature-item i {
   font-size: 80px;
   background: -webkit-linear-gradient(to left, #32c2cc, #289299);
   background: linear-gradient(to left, #32c2cc, #289299);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -428,6 +430,14 @@ section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
+}
+
+section.contact .section-subheading {
+  color: white;
+}
+
+section.contact .btn .btn-outline .btn-xl {
+  background: transparent;
 }
 
 section.social {
@@ -529,8 +539,8 @@ footer ul li a.active {
 
 .bg-secondary {
   background: #004990;
-  background: -webkit-linear-gradient(#32c2cc, #289299);
-  background: linear-gradient(#32c2cc, #289299);
+  background: -webkit-linear-gradient(to left, #592099, #992896);
+  background: linear-gradient(to left, #592099, #992896);
 }
 
 .bg-primary {
@@ -558,9 +568,9 @@ footer ul li a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: white;
-  background-color: #004990;
-  border-color: #004990;
+  color: black;
+  background-color: white;
+  border-color: white;
 }
 
 .btn {
@@ -572,7 +582,6 @@ footer ul li a.active {
 
 .btn-xl {
   padding: 15px 45px;
-  font-size: 11px;
 }
 
 ::-moz-selection {

@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "name": "Measured Studios",
   "short_name": "Measured Studios",
-  "description": "Tailored Data Services",
+  "description": "A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.",
   "icons": [
       {
           "src": "/static/img/icons/android-chrome-192x192.png",
@@ -28,7 +28,7 @@
   "locales": {
     "en": {
       "name": "Measured Studios",
-      "description": "Tailored Data Services"
+      "description": "A web based product development tool to guide people through the biggest challenges with design, technology, and marketing."
     }
   },
   "start_url": "/index.html",

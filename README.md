@@ -3,10 +3,10 @@
 
 # Measured Studios
 
-> Tailored Data Services
+> A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.
 
 ## Features
-* HTML 5, CSS 3, Bootstrap 3. jQuery
+* HTML 5, CSS 3, Bootstrap 3, jQuery
 
 ## Folder Structure
 

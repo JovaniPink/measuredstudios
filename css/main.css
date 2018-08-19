@@ -740,3 +740,7 @@ img::-moz-selection {
   background-color: #1ca347;
   border-color: #1ca347;
 }
+
+.modal-header .panel-heading a.active {
+  background: #00415d;
+}

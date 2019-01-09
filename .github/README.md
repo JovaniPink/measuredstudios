@@ -1,7 +1,9 @@
-<img src="../project-logo.png" align="left" width="192px" height="192px"/>
+<img src="../src/assets/favicon/website-icon.png" align="left" width="192px" height="192px"/>
 <img align="left" width="0" height="192px" hspace="10"/>
 
-> Short description (one line) about what this project stands for.
+#Measured Studios
+
+> A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.
 
 [![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/cez-aug/github-project-boilerplate) [![Public Domain](https://img.shields.io/badge/public-domain-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/) [![Travis](https://img.shields.io/travis/cez-aug/github-project-boilerplate.svg)](http://github.com/cez-aug/github-project-boilerplate)
 
@@ -9,6 +11,30 @@
 
 <br>
 <br>
+
+## gatsby-starter-forty that was forked.
+
+**This is a starter for Gatsby.js V2. (modified)**
+
+## CSS Grid
+
+The grid on this site was replaced with a custom version, built using CSS Grid. It's a very simple 12 column grid that is disabled on mobile. To start using the grid, wrap the desired items with `grid-wrapper`. Items inside the `grid-wrapper` use the class `col-` followed by a number, which should add up to 12.
+
+Here is an example of using the grid, for a 3 column layout:
+
+```
+<div className="grid-wrapper">
+    <div className="col-4">
+        <p>Content Here</p>
+    </div>
+    <div className="col-4">
+        <p>Content Here</p>
+    </div>
+    <div className="col-4">
+        <p>Content Here</p>
+    </div>
+</div>
+```
 
 ## Installing
 

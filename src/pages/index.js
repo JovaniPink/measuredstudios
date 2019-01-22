@@ -21,8 +21,30 @@ class HomeIndex extends React.Component {
                     meta={[
                         { name: 'description', content: 'A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.' },
                         { name: 'keywords', content: 'product development web app, product development design web app, product development, product development design, product owner, product management, project management, scrum, agile, marketing, product marketing​' },
+                        { name: 'google-site-verification', content: 'lsVzqwWFygoBXZvBOB7zQInHEBL1VrAK1Djg02BJbK8' },
+                        { name: 'msvalidate.01', content: 'DB6D40F5ADF954CF7A904C6A2A5700AA' },
                     ]}
                 >
+
+                    <html lang="en" />
+                    <meta property="og:title" content="Measured Studios" />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content="https://www.measuredstudios.com/" />
+                    <meta property="og:site_name" content="Measured Studios" />
+                    <meta property="og:description" content="A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.​" />
+                    <meta property="fb:app_id" content="316837708958469" />
+                    <meta property="og:image" content="" />
+                    <meta property="og:image:type" content="image/png" />
+                    <meta property="og:image:width" content="1079" />
+                    <meta property="og:image:height" content="719" />
+                    <meta property="og:image:alt" content="Measured Studios Logo" />
+                    <meta property="twitter:card" content="summary_large_image" />
+                    <meta property="twitter:site" content="@MeasuredStudios" />
+                    <meta property="twitter:title" content="Measured Studios" />
+                    <meta property="twitter:description" content="A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.​" />
+                    <meta property="twitter:creator" content="@MeasuredStudios" />
+                    <meta property="twitter:image:src" content="" />
+
                 </Helmet>
 
                 <Banner />
@@ -75,11 +97,11 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Agency</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>Apart from the Measured Studios Product Tool, it also offers full stack development work.</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/agency" className="button next">Work With US!</Link></li>
                             </ul>
                         </div>
                     </section>

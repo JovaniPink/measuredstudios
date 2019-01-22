@@ -10,7 +10,7 @@ const Banner = (props) => (
                 <p>Data driven platform to guide you through the <br />
                     biggest challenages with design, development, and marketing.</p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Join Beta</a></li>
+                    <li><a href="#one" className="button next scrolly">Join The Beta</a></li>
                 </ul>
             </div>
         </div>

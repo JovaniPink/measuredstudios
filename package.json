@@ -1,43 +1,52 @@
 {
   "title": "Measured Studios",
   "name": "measured-studios",
-  "description": "A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
+  "description": "A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.",
+  "keywords": [
+    ""
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JovaniPink/measuredstudios.com"
+  },
+  "bugs": {
+    "url": "https://github.com/JovaniPink/measuredstudios.com/issues"
+  },
+  "homepage": "https://www.measuredstudios.com/",
   "author": "Jovani Pink",
   "contributors": [
     "Jovani Pink (https://www.jovanipink.com/)"
   ],
-  "homepage": "https://www.measuredstudios.com/",
   "dependencies": {
     "gatsby": "^2.0.76",
+    "gatsby-plugin-facebook-pixel": "^1.0.3",
     "gatsby-plugin-google-analytics": "^2.0.9",
     "gatsby-plugin-manifest": "^2.0.13",
+    "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-offline": "^2.0.21",
     "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-robots-txt": "^1.3.0",
     "gatsby-plugin-sass": "^2.0.7",
     "gatsby-plugin-sitemap": "^2.0.4",
     "node-sass": "^4.11.0",
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "prettier": "^1.14.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JovaniPink/measuredstudios.com"
+  "engines": {
+    "node": ">= 8.0"
   }
 }

@@ -8,7 +8,7 @@ const Banner = props => (
       </header>
       <div className="content">
         <p>
-          Guiding you through the toughest challenges with design, development,
+          Guiding you through the toughest challenges in design, development,
           and marketing.
         </p>
         <ul className="actions">

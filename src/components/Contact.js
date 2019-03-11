@@ -7,12 +7,13 @@ const Contact = props => (
         <form
           name="contact-ms"
           id="contact-ms"
-          method="post"
+          method="POST"
           action="/success"
+          netlify
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="bot-field" value="contact-ms" />
+          <input type="hidden" name="bot-field" />
           <div className="field half first">
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" required />

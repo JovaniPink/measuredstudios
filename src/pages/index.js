@@ -15,22 +15,16 @@ class HomeIndex extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet
-          title="Measured Studios"
-          meta={[
-            {
-              name: 'description',
-              content:
-                'A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.',
-            },
-            {
-              name: 'keywords',
-              content:
-                'product development web app, product development design web app, product development, product development design, product owner, product management, project management, scrum, agile, marketing, product marketing​',
-            },
-          ]}
-        >
+        <Helmet>
           <html lang="en" />
+          <meta
+            name="description"
+            content="A web based product development tool to guide people through the biggest challenges with design, technology, and marketing."
+          />
+          <meta
+            name="keywords"
+            content="product development web app, product development design web app, product development, product development design, product owner, product management, project management, scrum, agile, marketing, product marketing"
+          />
           <meta
             name="google-site-verification"
             content="lsVzqwWFygoBXZvBOB7zQInHEBL1VrAK1Djg02BJbK8"
@@ -62,6 +56,7 @@ class HomeIndex extends React.Component {
           />
           <meta property="twitter:creator" content="@MeasuredStudios" />
           <meta property="twitter:image:src" content="" />
+          <title>Measured Studios</title>
         </Helmet>
 
         <Banner />

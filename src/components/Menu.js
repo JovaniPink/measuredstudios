@@ -24,7 +24,11 @@ const Menu = props => (
       </ul>
       <ul className="actions vertical">
         <li>
-          <a href="#" className="button special fit">
+          <a
+            href="/#contact"
+            className="button special fit"
+            onClick={props.onToggleMenu}
+          >
             Join The Beta
           </a>
         </li>

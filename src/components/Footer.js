@@ -56,7 +56,6 @@ const Footer = props => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Measured Studios LLC</li>
         <li>
           <a
             href="https://www.jovanipink.com/"
@@ -66,6 +65,16 @@ const Footer = props => (
             Jovani Pink
           </a>{' '}
           made it with love!
+        </li>
+        <li>&copy; Measured Studios LLC</li>
+        <li>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            Terms
+          </a>{' '}
+          |{' '}
+          <a href="" target="_blank" rel="noopener noreferrer">
+            Privacy
+          </a>
         </li>
       </ul>
     </div>

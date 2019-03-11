@@ -117,12 +117,12 @@ class HomeIndex extends React.Component {
                 <h2>Agency</h2>
               </header>
               <p>
-                Apart from the Measured Studios Product Tool, it also offers
-                full stack development work.
+                Apart from the Measured Studios Product Tool... we offer full
+                stack development consulting.
               </p>
               <ul className="actions">
                 <li>
-                  <Link to="/agency" className="button next">
+                  <Link to="/agency" className="button special next">
                     Work With US!
                   </Link>
                 </li>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Contact = props => (
   <section id="contact">
@@ -65,12 +65,12 @@ const Contact = props => (
           <div className="contact-method">
             <span className="icon alt fa-home" />
             <h3>Address</h3>
-            <span>Saint Cloud, Florida</span>
+            <span>St Cloud, Florida</span>
           </div>
         </section>
       </section>
     </div>
   </section>
-)
+);
 
-export default Contact
+export default Contact;

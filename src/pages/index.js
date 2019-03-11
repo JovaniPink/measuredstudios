@@ -28,17 +28,17 @@ class HomeIndex extends React.Component {
               content:
                 'product development web app, product development design web app, product development, product development design, product owner, product management, project management, scrum, agile, marketing, product marketing​',
             },
-            {
-              name: 'google-site-verification',
-              content: 'lsVzqwWFygoBXZvBOB7zQInHEBL1VrAK1Djg02BJbK8',
-            },
-            {
-              name: 'msvalidate.01',
-              content: 'DB6D40F5ADF954CF7A904C6A2A5700AA',
-            },
           ]}
         >
           <html lang="en" />
+          <meta
+            name="google-site-verification"
+            content="lsVzqwWFygoBXZvBOB7zQInHEBL1VrAK1Djg02BJbK8"
+          />
+          <meta
+            name="msvalidate.01"
+            content="DB6D40F5ADF954CF7A904C6A2A5700AA"
+          />
           <meta property="og:title" content="Measured Studios" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.measuredstudios.com/" />

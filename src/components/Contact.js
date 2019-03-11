@@ -8,7 +8,7 @@ const Contact = props => (
           name="contact-ms"
           id="contact-ms"
           method="POST"
-          action="/success/no-cache=1"
+          action="/success"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >

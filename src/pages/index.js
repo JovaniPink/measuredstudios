@@ -65,43 +65,43 @@ class HomeIndex extends React.Component {
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
-                <h3>Aliquam</h3>
-                <p>Ipsum dolor sit amet</p>
+                <h3>Feature 1</h3>
+                <p>Details</p>
               </header>
               <Link to="/features" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
-                <h3>Tempus</h3>
-                <p>feugiat amet tempus</p>
+                <h3>Feature 2</h3>
+                <p>Details</p>
               </header>
               <Link to="/features" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
-                <h3>Magna</h3>
-                <p>Lorem etiam nullam</p>
+                <h3>Feature 3</h3>
+                <p>Details</p>
               </header>
               <Link to="/features" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
-                <h3>Ipsum</h3>
-                <p>Nisl sed aliquam</p>
+                <h3>Feature 4</h3>
+                <p>Details</p>
               </header>
               <Link to="/features" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic05})` }}>
               <header className="major">
-                <h3>Consequat</h3>
-                <p>Ipsum dolor sit amet</p>
+                <h3>Feature 5</h3>
+                <p>Details</p>
               </header>
               <Link to="/features" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic06})` }}>
               <header className="major">
-                <h3>Etiam</h3>
-                <p>Feugiat amet tempus</p>
+                <h3>Feature 6</h3>
+                <p>Details</p>
               </header>
               <Link to="/features" className="link primary" />
             </article>

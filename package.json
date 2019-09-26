@@ -3,17 +3,17 @@
   "name": "measured-studios",
   "version": "0.1.0",
   "private": true,
-  "description": "A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.",
+  "description": "A platform for communicating and supporting leaders and managers.",
   "keywords": [
     ""
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JovaniPink/measuredstudios.com"
+    "url": "https://github.com/MeasuredStudios/measuredstudios.com"
   },
   "bugs": {
-    "url": "https://github.com/JovaniPink/measuredstudios.com/issues"
+    "url": "https://github.com/MeasuredStudios/measuredstudios.com/issues"
   },
   "homepage": "https://www.measuredstudios.com/",
   "author": "Jovani Pink",
@@ -21,20 +21,19 @@
     "Jovani Pink (https://www.jovanipink.com/)"
   ],
   "dependencies": {
-    "gatsby": "2.13.67",
+    "gatsby": "^2.15.28",
+    "@narative/gatsby-theme-novela": "^0.8.1",
     "gatsby-plugin-facebook-pixel": "1.0.3",
-    "gatsby-plugin-google-analytics": "2.1.7",
-    "gatsby-plugin-manifest": "2.2.5",
-    "gatsby-plugin-netlify": "2.1.5",
-    "gatsby-plugin-offline": "2.2.6",
-    "gatsby-plugin-react-helmet": "3.1.3",
+    "gatsby-plugin-google-analytics": "2.1.19",
+    "gatsby-plugin-manifest": "2.2.20",
+    "gatsby-plugin-netlify": "2.1.17",
+    "gatsby-plugin-offline": "3.0.11",
+    "gatsby-plugin-react-helmet": "3.1.10",
     "gatsby-plugin-robots-txt": "1.5.0",
-    "gatsby-plugin-sass": "2.1.8",
-    "gatsby-plugin-sitemap": "2.2.6",
-    "node-sass": "4.12.0",
-    "prop-types": "15.7.2",
+    "gatsby-plugin-sitemap": "2.2.16",
     "react": "16.9.0",
     "react-dom": "16.9.0",
+    "prop-types": "15.7.2",
     "react-helmet": "5.2.1"
   },
   "devDependencies": {
@@ -42,7 +41,8 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
+    "clean": "gatsby clean",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

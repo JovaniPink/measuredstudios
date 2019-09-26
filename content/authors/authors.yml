@@ -1,0 +1,33 @@
+- name: Christine Pink
+  bio: |
+    I want to be an empowering & effective leader.
+  avatar: ./avatars/christine-pink.jpeg
+  featured: true
+  social:
+    - name: github
+      url: https://github.com
+    - name: twitter
+      url: https://github.com
+    - name: instagram
+      url: https://github.com
+    - name: dribbble
+      url: https://github.com
+    - name: linkedin
+      url: https://github.com
+
+- name: Jovani Pink
+  bio: |
+    I want to follow great leaders.
+  avatar: ./avatars/jovani-pink.jpg
+  featured: false
+  social:
+    - name: github
+      url: https://github.com
+    - name: twitter
+      url: https://github.com
+    - name: instagram
+      url: https://github.com
+    - name: dribbble
+      url: https://github.com
+    - name: linkedin
+      url: https://github.com

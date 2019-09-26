@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www.measuredstudios.com/sitemap.xml
-Host: https://www.measuredstudios.com

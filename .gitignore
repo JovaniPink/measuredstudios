@@ -24,6 +24,7 @@ yarn-error.log*
 
 # Project dependencies (Gatsby)
 .cache
+public
 node_modules
 package-lock.json
 yarn.lock
@@ -48,3 +49,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Logs
+logs
+*.log
+
+.netlify/

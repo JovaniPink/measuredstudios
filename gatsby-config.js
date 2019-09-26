@@ -1,29 +1,62 @@
 module.exports = {
   siteMetadata: {
-    title: 'Measured Studios',
-    author: 'Jovani Pink',
-    description:
-      'A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.',
-    keywords:
-      'product development web app, product development design web app, product development, product development design, product owner, product management, project management, scrum, agile, marketing, product marketing​',
-    siteUrl: 'https://www.measuredstudios.com',
+    title: `Measured Studios`,
+    name: `Measured Studios`,
+    siteUrl: `https://www.measuredstudios.com`,
+    description: `A platform for communicating and supporting leaders and managers.`,
+    keywords: '',
+    hero: {
+      heading: `Communicating and supporting leaders and managers.`,
+      maxWidth: 652,
+    },
+    social: [
+      {
+        name: `twitter`,
+        url: `https://twitter.com/MeasuredStudios`,
+      },
+      {
+        name: `github`,
+        url: `https://github.com/MEASUREDSTUDIOS`,
+      },
+      {
+        name: `instagram`,
+        url: `https://www.instagram.com/measuredstudios/`,
+      },
+      {
+        name: `linkedin`,
+        url: `https://www.linkedin.com/company/measuredstudios/`,
+      },
+      {
+        name: `facebook`,
+        url: `https://www.facebook.com/MeasuredStudios/`,
+      },
+    ],
   },
   plugins: [
-    'gatsby-plugin-sass',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-offline',
+    {
+      resolve: '@narative/gatsby-theme-novela',
+      options: {
+        contentPosts: 'content/posts',
+        contentAuthors: 'content/authors',
+        basePath: '/',
+        authorsPage: true,
+        sources: {
+          local: true,
+          // contentful: true,
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Measured Studios',
-        short_name: 'Measured Studios',
-        description:
-          'A web based product development tool to guide people through the biggest challenges with design, technology, and marketing.',
-        start_url: '/',
-        background_color: '#f9f9f9',
-        theme_color: '#242943',
-        display: 'standalone',
-        icon: 'src/assets/favicon/website-icon.png',
+        name: `Measured Studios`,
+        short_name: `Measured Studios`,
+        description: `A platform for communicating and supporting leaders and managers.`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
+        display: `standalone`,
+        icon: `src/assets/favicon/favicon-96x96.png`,
         icons: [
           {
             src: '/android-icon-36x36.png',

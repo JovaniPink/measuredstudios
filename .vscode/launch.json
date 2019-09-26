@@ -8,7 +8,7 @@
             "protocol": "inspector",
             "program": "${workspaceRoot}/node_modules/gatsby/dist/bin/gatsby",
             "args": [
-                "develop"
+                "dev"
             ],
             "stopOnEntry": false,
             "runtimeArgs": [

@@ -9,16 +9,26 @@ function BioGroup({ author }: IAuthor) {
   return (
     <BioContainer>
       <BioAvatar
-        as={author.authorsPage ? Link : 'div'}
-        to={author.slug}
+        as={'div'}
+        // to={author.slug}
         data-a11y="false"
         aria-label="Author's bio"
       >
         <BioAvatarInner>
-          <Image src={author.avatar.medium} />
+          <Image src={'https://www.jovanipink.com/project-logo.jpg'} />
         </BioAvatarInner>
       </BioAvatar>
-      <BioText dangerouslySetInnerHTML={{ __html: author.bio }} />
+      <BioAvatar
+        as={'div'}
+        // to={author.slug}
+        data-a11y="false"
+        aria-label="Author's bio"
+      >
+        <BioAvatarInner>
+          <Image src={'https://www.jovanipink.com/project-logo.jpg'} />
+        </BioAvatarInner>
+      </BioAvatar>
+      <BioText>Testing</BioText>
     </BioContainer>
   );
 }
@@ -28,12 +38,13 @@ export default BioGroup;
 const BioContainer = styled.div`
   display: display-flex;
   align-items: center;
+  flex-direction: row;
   position: relative;
   left: -10px;
 `;
 
 const BioAvatar = styled.div`
-  display: block;
+  display: inline-block;
   position: relative;
   height: 40px;
   width: 40px;
@@ -74,13 +85,13 @@ const BioAvatarInner = styled.div`
 `;
 
 const BioText = styled.p`
+  display: inline-block;
+  position: relative;
   max-width: 430px;
   font-size: 14px;
   line-height: 1.45;
-  color: ${p => p.theme.colors.grey};
 
   a {
-    color: ${p => p.theme.colors.grey};
     text-decoration: underline;
   }
 `;

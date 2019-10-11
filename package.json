@@ -21,7 +21,7 @@
     "Jovani Pink (https://www.jovanipink.com/)"
   ],
   "dependencies": {
-    "gatsby": "2.15.35",
+    "gatsby": "2.15.36",
     "@narative/gatsby-theme-novela": "0.9.0",
     "gatsby-plugin-facebook-pixel": "1.0.3",
     "gatsby-plugin-google-analytics": "2.1.21",

@@ -21,13 +21,13 @@
     "Jovani Pink (https://www.jovanipink.com/)"
   ],
   "dependencies": {
-    "gatsby": "2.19.8",
+    "gatsby": "2.19.10",
     "@narative/gatsby-theme-novela": "0.13.2",
     "gatsby-plugin-facebook-pixel": "1.0.3",
     "gatsby-plugin-google-analytics": "2.1.34",
-    "gatsby-plugin-manifest": "2.2.39",
+    "gatsby-plugin-manifest": "2.2.40",
     "gatsby-plugin-netlify": "2.1.31",
-    "gatsby-plugin-offline": "3.0.32",
+    "gatsby-plugin-offline": "3.0.33",
     "gatsby-plugin-react-helmet": "3.1.21",
     "gatsby-plugin-robots-txt": "1.5.0",
     "gatsby-plugin-sitemap": "2.2.26",

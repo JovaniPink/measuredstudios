@@ -1,66 +1,30 @@
-import prism from '@theme-ui/prism/presets/theme-ui'
+import prism from '@theme-ui/prism/presets/theme-ui';
 
 export default {
   initialColorModeName: 'light',
   colors: {
     text: '#000',
-    background: '#fff',
+    background: '#fafafa',
     primary: 'hsl(240, 100%, 57%)',
     secondary: 'hsl(260, 100%, 57%)',
-    accent: 'hsl(280, 100%, 57%)',
+    accent: '#6166DC',
     muted: '#f9f9fc',
     gray: '#555',
     modes: {
-      black: {
-        text: '#fff',
-        background: '#000',
-        primary: '#0ff',
-        secondary: '#0fc',
-        accent: '#f0f',
-        muted: '#111',
-        gray: '#888',
-      },
       dark: {
         text: '#fff',
-        background: 'hsl(180, 5%, 15%)',
-        primary: 'hsl(180, 100%, 57%)',
-        secondary: 'hsl(50, 100%, 57%)',
-        accent: 'hsl(310, 100%, 57%)',
-        muted: 'hsl(180, 5%, 5%)',
-        gray: 'hsl(180, 0%, 70%)',
+        background: '#000',
+        primary: '#fff',
+        secondary: '#fff',
+        accent: '#E9DAAC',
+        muted: '#111',
+        gray: '#73737D',
       },
-      deep: {
-        text: '#fff',
-        background: 'hsl(230,25%,18%)',
-        primary: 'hsl(260, 100%, 80%)',
-        secondary: 'hsl(290, 100%, 80%)',
-        highlight: 'hsl(260, 20%, 40%)',
-        accent: 'hsl(290, 100%, 80%)',
-        muted: 'hsla(230, 20%, 0%, 20%)',
-        gray: 'hsl(210, 50%, 60%)',
-      },
-      hack: {
-        text: 'hsl(120, 100%, 75%)',
-        background: 'hsl(120, 20%, 10%)',
-        primary: 'hsl(120, 100%, 40%)',
-        secondary: 'hsl(120, 50%, 40%)',
-        accent: 'hsl(120, 100%, 90%)',
-        muted: 'hsl(120, 20%, 7%)',
-        gray: 'hsl(120, 20%, 40%)',
-      },
-      pink: {
-        text: 'hsl(350, 80%, 10%)',
-        background: 'hsl(350, 100%, 90%)',
-        primary: 'hsl(350, 100%, 50%)',
-        secondary: 'hsl(280, 100%, 50%)',
-        accent: 'hsl(280, 100%, 20%)',
-        muted: 'hsl(350, 100%, 88%)',
-        gray: 'hsl(350, 40%, 50%)',
-      }
-    }
+    },
   },
   fonts: {
-    body: 'system-ui, sans-serif',
+    body:
+      'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
     monospace: '"Roboto Mono", Menlo, monospace',
   },
   lineHeights: {
@@ -72,9 +36,7 @@ export default {
     heading: 800,
     bold: 700,
   },
-  fontSizes: [
-    14, 16, 18, 20, 24, 32, 48, 64, 72, 96
-  ],
+  fontSizes: [14, 16, 18, 20, 24, 32, 48, 64, 72, 96],
   sizes: {
     container: 768,
     wide: 1280,
@@ -110,7 +72,7 @@ export default {
       color: 'primary',
       ':hover,:focus': {
         color: 'secondary',
-      }
+      },
     },
     h1: {
       variant: 'text.heading',
@@ -195,13 +157,13 @@ export default {
       textDecoration: 'none',
       ':hover,:focus': {
         color: 'primary',
-      }
+      },
     },
     navitem: {
       variant: 'styles.navlink',
       display: 'inline-flex',
       alignItems: 'center',
       fontWeight: 'bold',
-    }
-  }
-}
+    },
+  },
+};

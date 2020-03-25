@@ -5,6 +5,8 @@ module.exports = {
     siteUrl: 'https://www.measuredstudios.com/',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-catch-links',
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
@@ -12,8 +14,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-theme-ui',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-catch-links',
+
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
@@ -24,7 +25,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: '',
+        trackingId: 'UA-103072419-1',
       },
     },
     {

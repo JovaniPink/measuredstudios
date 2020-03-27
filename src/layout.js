@@ -216,18 +216,9 @@ export default props => {
             to='/'
             sx={{
               variant: 'styles.navitem',
-              mr: 3,
+              mr: 4,
             }}>
             Measured Studios
-          </Styled.a>
-          <Styled.a
-            as={Link}
-            to='/blog'
-            sx={{
-              variant: 'styles.navitem',
-              mr: 3,
-            }}>
-            Blog
           </Styled.a>
           <Styled.a
             as={Link}
@@ -237,6 +228,15 @@ export default props => {
               mr: 4,
             }}>
             About
+          </Styled.a>
+          <Styled.a
+            as={Link}
+            to='/blog'
+            sx={{
+              variant: 'styles.navitem',
+              mr: 4,
+            }}>
+            Blog
           </Styled.a>
           <div sx={{ mx: 'auto' }} />
           <div sx={{ my: 2 }}>© 2020 Measured Studios</div>

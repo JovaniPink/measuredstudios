@@ -50,7 +50,7 @@
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {
-    "@types/node": "13.9.1",
+    "@types/node": "13.13.5",
     "@types/react": "16.9.23",
     "@types/react-dom": "16.9.5",
     "@types/prop-types": "15.7.3",

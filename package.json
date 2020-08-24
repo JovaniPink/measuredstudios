@@ -79,7 +79,7 @@
     "eslint-plugin-react-hooks": "4.1.0",
     "eslint-plugin-simple-import-sort": "5.0.3",
     "eslint-plugin-testing-library": "3.7.0",
-    "prettier": "2.0.5",
+    "prettier": "2.1.0",
     "jest": "26.4.2",
     "react-test-renderer": "16.13.1",
     "@testing-library/react": "10.4.9",

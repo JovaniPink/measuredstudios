@@ -24,7 +24,7 @@
     "@mdx-js/mdx": "1.6.16",
     "@mdx-js/react": "1.6.16",
     "@theme-ui/prism": "0.3.0",
-    "d3": "5.16.0",
+    "d3": "6.0.0",
     "gatsby": "2.24.50",
     "gatsby-plugin-catch-links": "2.3.11",
     "gatsby-plugin-facebook-pixel": "1.0.3",

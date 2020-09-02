@@ -20,9 +20,7 @@ exports.onCreatePage = async ({ page, actions }) => {
     },
   });
 
-  const compiler = remark()
-    .use(remark.mdx)
-    .use(remark.html);
+  const compiler = remark().use(remark.mdx).use(remark.html);
 
   const html = await compiler.process(post.content);
   const excerpt = await compiler.process(post.excerpt);

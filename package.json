@@ -84,7 +84,7 @@
     "react-test-renderer": "16.13.1",
     "@testing-library/react": "11.0.4",
     "@testing-library/react-hooks": "3.4.2",
-    "@testing-library/user-event": "12.1.7",
+    "@testing-library/user-event": "12.1.8",
     "@testing-library/jest-dom": "5.11.4",
     "husky": "4.3.0",
     "lint-staged": "10.4.0"

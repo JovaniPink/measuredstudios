@@ -85,7 +85,7 @@
     "@testing-library/react": "11.1.0",
     "@testing-library/react-hooks": "3.4.2",
     "@testing-library/user-event": "12.1.10",
-    "@testing-library/jest-dom": "5.11.4",
+    "@testing-library/jest-dom": "5.11.5",
     "husky": "4.3.0",
     "lint-staged": "10.4.2"
   },

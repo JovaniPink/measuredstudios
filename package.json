@@ -62,7 +62,7 @@
     "@types/prettier": "2.1.5",
     "@types/eslint-plugin-prettier": "3.1.0",
     "@types/jest": "26.0.15",
-    "@types/react-test-renderer": "16.9.4",
+    "@types/react-test-renderer": "17.0.0",
     "@babel/core": "7.12.7",
     "@babel/preset-env": "7.12.7",
     "@babel/preset-react": "7.12.7",

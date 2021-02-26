@@ -127,6 +127,33 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-facebook-analytics`,
+      options: {
+        // Required - set this to the ID of your Facebook app.
+        appId: `316837708958469`,
+
+        // Which version of the SDK to load.
+        version: `v3.3`,
+
+        // Determines whether XFBML tags used by social plugins are parsed.
+        xfbml: true,
+
+        // Determines whether a cookie is created for the session or not.
+        cookie: false,
+
+        // Include Facebook analytics in development.
+        // Defaults to false meaning the library will only be loaded in production.
+        includeInDevelopment: false,
+
+        // Include debug version of sdk
+        // Defaults to false meaning the library will load sdk.js
+        debug: false,
+
+        // Select your language.
+        language: `en_US`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-eslint`,
       options: {
         test: /\.js$|\.jsx$/,

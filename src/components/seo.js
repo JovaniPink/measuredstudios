@@ -59,7 +59,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:url`,
-          content: `site.siteMetadata.siteUrl`,
+          content: site.siteMetadata.siteUrl,
         },
         {
           property: `og:type`,
@@ -95,11 +95,11 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: 'og:image',
-          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`,
+          content: site.siteMetadata.image,
         },
         {
           name: 'twitter:image',
-          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`,
+          content: site.siteMetadata.image,
         },
         {
           property: `twitter:image:alt`,
@@ -107,7 +107,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `twitter:url`,
-          content: `site.siteMetadata.siteUrl`,
+          content: site.siteMetadata.siteUrl,
         },
       ].concat(meta)}
       link={[

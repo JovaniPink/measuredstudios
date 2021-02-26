@@ -15,6 +15,8 @@ const SEO = ({ description, lang, meta, title }) => {
             description
             siteUrl
             image
+            fb
+            twitter
             keywords
             author
             social {
@@ -95,11 +97,11 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: 'og:image',
-          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`,
+          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.fb}`,
         },
         {
           name: 'twitter:image',
-          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.image}`,
+          content: `${site.siteMetadata.siteUrl}${site.siteMetadata.twitter}`,
         },
         {
           property: `twitter:image:alt`,

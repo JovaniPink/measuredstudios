@@ -10,6 +10,8 @@ module.exports = {
   siteUrl: 'https://www.measuredstudios.com/',
   siteLanguage: 'en_US',
   siteImage: '/allhands.jpg',
+  siteImageFB: '/facebook.jpg',
+  siteImageTwitter: '/allhands.jpg',
   siteIcon: 'content/favicon.png', // Relative to gatsby-config file
   seoTitleSuffix: 'Measured Studios', // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   social: {

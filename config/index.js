@@ -9,7 +9,7 @@ module.exports = {
     'Data, Stats, Product Manager, Product Development, Product Owner, Product Management, Product Marketing, Project Management, Scrum, Agile​',
   siteUrl: 'https://www.measuredstudios.com/',
   siteLanguage: 'en_US',
-  siteImage: './allhands.jpg',
+  siteImage: 'allhands.jpg',
   siteIcon: 'content/favicon.png', // Relative to gatsby-config file
   seoTitleSuffix: 'Measured Studios', // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   social: {

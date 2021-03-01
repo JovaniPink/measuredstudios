@@ -23,11 +23,11 @@ module.exports = {
     lightTheme: {
       primary: '#475569',
       secondary: '#1e293b',
-      tertiary: '#F2F2F2',
+      tertiary: '#f7fafc',
       text: '#475569',
       subtext: '#555555',
       background: '#ffffff',
-      card: '#f1f5f9',
+      card: '#f7fafc',
       scrollBar: 'rgba(0, 0, 0, 0.5)',
       boxShadow: 'rgba(0, 0, 0, 0.16)',
       boxShadowHover: 'rgba(0, 0, 0, 0.32)',

@@ -87,7 +87,7 @@
     "@babel/eslint-parser": "7.13.8",
     "@babel/eslint-plugin": "7.13.0",
     "@babel/plugin-proposal-class-properties": "7.13.0",
-    "@babel/plugin-transform-runtime": "7.13.8",
+    "@babel/plugin-transform-runtime": "7.13.9",
     "@babel/preset-react": "7.12.13",
     "@testing-library/cypress": "7.0.4",
     "cypress": "6.6.0",

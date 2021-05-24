@@ -90,7 +90,7 @@
     "@babel/plugin-transform-runtime": "7.14.3",
     "@babel/preset-react": "7.13.13",
     "@testing-library/cypress": "7.0.6",
-    "cypress": "7.3.0",
+    "cypress": "7.4.0",
     "eslint": "7.27.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-loader": "4.0.2",

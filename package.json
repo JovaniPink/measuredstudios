@@ -75,7 +75,7 @@
     "tiny-skeleton-loader-react": "1.1.4"
   },
   "devDependencies": {
-    "@types/eslint": "7.2.12",
+    "@types/eslint": "7.28.0",
     "@types/eslint-plugin-prettier": "3.1.0",
     "@types/node": "14.17.1",
     "@types/prettier": "2.2.3",
@@ -91,7 +91,7 @@
     "@babel/preset-react": "7.13.13",
     "@testing-library/cypress": "7.0.6",
     "cypress": "7.4.0",
-    "eslint": "7.27.0",
+    "eslint": "7.30.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-cypress": "2.11.3",
